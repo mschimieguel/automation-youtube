@@ -27,11 +27,10 @@ For installing Python Librarys do you need the pip installed.You can install it 
 ### Geckodriver
 
 you will need to download latest executable from git repository 
-[Geckodriver](https://github.com/mozilla/geckodriver/releases)
+[Geckodriver](https://github.com/mozilla/geckodriver/releases).
 
 Next you will need to add the directory containing the executable to the system path.
-
- you can do the following to append it to your system’s search path :
+you can do the following to append it to your system’s search path :
 
 `export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step`
 
