@@ -40,4 +40,4 @@ Now you can run this code:
 from selenium import webdriver
 browser = webdriver.Firefox()
 ```
-and then will openin an browser.
+Then a firefox automated browser will opening.
