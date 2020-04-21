@@ -10,7 +10,7 @@ item = driver.find_element_by_css_selector("ytd-masthead div#buttons ytd-button-
 item.click()
 delay(5)
 
-Usuario = input("digite o usuario google:")
+usuario = input("digite o usuario google:")
 senha = input("Digite a senha de sua conta google:")
 login_google_account(driver,usuario,senha)
 
