@@ -1,4 +1,4 @@
-from automation_youtube import *
+from automation_you_tube import *
 
 #escolhendo o navegador
 driver = webdriver.Firefox()
