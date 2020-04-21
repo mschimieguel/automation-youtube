@@ -36,9 +36,8 @@ Next you will need to add the directory containing the executable to the system 
 `export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step`
 
 Now you can run this code:
-
-`from selenium import webdriver`
-
-`browser = webdriver.Firefox()`
-
+```
+from selenium import webdriver
+browser = webdriver.Firefox()
+```
 and then will openin an browser.
