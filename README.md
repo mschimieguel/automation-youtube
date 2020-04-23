@@ -1,4 +1,4 @@
-## Requirements
+## Requirements For Linux Systems
 
 Python2 and Python3
 
@@ -14,14 +14,17 @@ For installing Python Librarys do you need the pip installed.You can install it 
 `sudo apt install python3-pip`
 
 #### Pandas
+To manage data scrapped from sites and export it for excel sheets.
 
 `pip3 install pandas`
 
 ####  BeautifulSoup
+To scrap the web sites contents.
 
 `pip3 install beautifulsoup4`
 
 ####  Selenium
+Is the responsable for automating the tasks in the browser.
 
 `pip install selenium`
 
