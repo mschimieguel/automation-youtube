@@ -1,4 +1,5 @@
 from automation_you_tube import *
+#este codigo tem como intuito entrar no you tube studio e pegar dados dos seus videos no you tube (url,nome) e exportar para uma planilha .xlsx
 
 #escolhendo o navegador
 driver = webdriver.Firefox()
@@ -10,8 +11,10 @@ item = driver.find_element_by_css_selector("ytd-masthead div#buttons ytd-button-
 item.click()
 delay(5)
 
+
 usuario = input("digite o usuario google:")
 senha = input("Digite a senha de sua conta google:")
+#funcao criada para entrar em uma conta google
 login_google_account(driver,usuario,senha)
 
 WebDriverWait(driver, 300).until(
@@ -19,7 +22,7 @@ WebDriverWait(driver, 300).until(
 )
 print("login ok")
 
-#pesquisa entre videos
+#pesquisa entre os seus videos no you tube studio dado um termo de pesquisa
 search = input ("Digite o curso que deseja pesquisar:\n")
 videos = youtube_videos_data(driver,search)
 
