@@ -2,12 +2,12 @@ from automation_you_tube import *
 #este codigo tem como intuito entrar no you tube studio e pegar dados dos seus videos no you tube (url,nome) e exportar para uma planilha .xlsx
 
 #escolhendo o navegador
-driver = webdriver.Firefox()
+driver = webdriver.Chrome('chromedriver.exe')
 driver.get("https://www.youtube.com")
 delay(10)
 
 #clicando no botão de login
-item = driver.find_element_by_css_selector("ytd-masthead div#buttons ytd-button-renderer a")
+item = driver.find_element(By.CSS_SELECTOR,"ytd-masthead div#buttons ytd-button-renderer a")
 item.click()
 delay(5)
 
